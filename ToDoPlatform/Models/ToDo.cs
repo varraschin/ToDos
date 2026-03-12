@@ -19,7 +19,7 @@ public class ToDo
     [Required]
     [StringLength(100)]
     [Display(Name = "Título")]
-    public sbyte Title { get; set; }
+    public string Title { get; set; }
 
     [Display(Name = "Descrição")]
     public string Description { get; set; }
